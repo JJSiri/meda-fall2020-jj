@@ -1,0 +1,163 @@
+<center><h1><b>GitHub</b></h1>
+<h1><b>GIT CHEAT SHEET</b></h1></center>
+
+<hr/>
+
+<p>Git is the free and open source distributed version control system that's responsible for everything GitHub
+    related that happens locally on your computer. This cheat sheet features the most important and commonly
+    used Git commands for easy reference.
+</p>
+
+<h2><b>INSTALLATION & GUIS</b></h2>
+<p>With platform specific installers for Git, GitHub also provides the
+ease of staying up-to-date with the latest releases of the command
+line tool while providing a graphical user interface for day-to-day
+interaction, review, and repository synchronization.</p>
+
+<h3>GitHub for Windows</h3>
+<a href="https://windows.github.com"> https://windows.github.com</a>
+
+<h3>GitHub for Mac</h3>
+<a href="https://mac.github.com"> https://mac.github.com</a>
+
+<p>For Linux and Solaris platforms, the latest release is available on
+the official Git web site.</p>
+
+<h3>Git for All Platforms</h3>
+<a href="https://git-scm.com"> https://git-scm.com </a>
+
+<h2><b>SETUP</b></h2>
+<p>Configuring user information used across all local repositories</p>
+<ul>
+    <li>git config --global user.name “[firstname lastname]”</li>
+    <p> set a name that is identifiable for credit when review version history</p>
+    <li>git config --global user.email “[valid-email]”</li>
+    <p> set an email address that will be associated with each history marker</p>
+    <li>git config --global color.ui auto</li>
+    <p> set automatic command line coloring for Git for easy reviewing</p>
+ </ul>
+
+<h2><b>SETUP & INIT</b></h2>
+<p>Configuring user information, initializing and cloning repositories</p>
+<ul>
+    <li>git init</li>
+    <p>initialize an existing directory as a Git repository</p>
+    <li>git clone [url]</li>
+    <p>retrieve an entire repository from a hosted location via URL</p>
+</ul>
+
+<h2><b>STAGE & SNAPSHOT</b></h2>
+<p>Working with snapshots and the Git staging as</p>
+<ul>
+    <li>git status</li>
+    <p>show modified files in working directory, staged for your next commit</p>
+    <li>git add [file]</li>
+    <p>add a file as it looks now to your next commit (stage)</p>
+    <li>git reset [file]</li>
+    <p>unstage a file while retaining the changes in working directory</p>
+    <li>git diff</li>
+    <p>diff of what is changed but not staged</p>
+    <li>git diff --staged</li>
+    <p>diff of what is staged but not yet commited</p>
+    <li>git commit -m “[descriptive message]”</li>
+    <p>commit your staged content as a new commit snapshot</p>
+ </ul>
+
+ <h2><b>BRANCH & MERGE</b></h2>
+ <p>Isolating work in branches, changing context, and integrating changes</p>
+ <ul>
+    <li>git branch</li>
+    <p>list your branches. a * will appear next to the currently active branch</li>
+    <li>git branch [branch-name]</li>
+    <p>create a new branch at the current commit</li>
+    <li>git checkout</li>
+    <p>switch to another branch and check it out into your working directory</li>
+    <li>git merge [branch]</li>
+    <p>merge the specified branch’s history into the current one</p>
+    <li>git log</li>
+    <p>show all commits in the current branch’s history</p>
+</ul>
+
+<h2><b>INSPECT & COMPARE</b></h2>
+ <p>Examining logs, diffs and object information</p>
+ <ul>
+    <li>git log</li>
+    <p> show the commit history for the currently active branch</p>
+    <li>git log branchB..branchA</li>
+    <p> show the commits on branchA that are not on branchB</p>
+    <li>git log --follow [file]</li>
+    <p> show the commits that changed file, even across renames</p>
+    <li>git diff branchB...branchA</li>
+    <p>show the diff of what is in branchA that is not in branchB</p>
+    <li>git show [SHA]</li>
+    <p> show any object in Git in human-readable format</p>
+</ul>
+
+ <h2><b>TRACKING PATH CHANGES</b></h2>
+ <p>Versioning file removes and path changes</p>
+ <ul>
+    <li>git rm [file]</li>
+    <p> delete the file from project and stage the removal for commit</p>
+    <li>git mv [existing-path] [new-path]</li>
+    <p> change an existing file path and stage the move</p>
+    <li>git log --stat -M</li>
+    <p> show all commit logs with indication of any paths that moved</p> 
+</ul>
+
+<h2><b>IGNORING PATTERNS</b></h2>
+<p>Preventing unintentional staging or commiting of files</p>
+<ul>
+    <li>logs/ <br/>
+        *.notes <br/>
+        pattern*/ </li>
+    <p>Save a file with desired paterns as .gitignore with either direct string
+        matches or wildcard globs</p>
+    <li>git config --global core.excludesfile [file]</li>
+    <p>system wide ignore patern for all local repositories</p>
+</ul>
+
+
+<h2><b>SHARE & UPDATE</b></h2>
+<p>Retrieving updates from another repository and updating local repos</p>
+<ul>
+    <li> git remote add [alias] [url] </li>
+    <p>add a git URL as an alias</p>
+    <li>git fetch [alias]</li>
+    <p>fetch down all the branches from that Git remote</p>
+    <li>git merge [alias]/[branch] </li>
+    <p>merge a remote branch into your current branch to bring it up to date</p>
+    <li>git push [alias] [branch]</li>
+    <p>Transmit local branch commits to the remote repository branch</p>
+    <li>git pull</li>
+    <p>fetch and merge any commits from the tracking remote branch</p>
+</ul>
+ 
+<h2><b>REWRITE HISTORY</b></h2>
+<p>Rewriting branches, updating commits and clearing history</p>
+<ul>
+    <li> git rebase [branch] </li>
+    <p> apply any commits of current branch ahead of specified one</p>
+    <li>git reset --hard [commit]</li>
+    <p>clear staging area, rewrite working tree from specified commit</p>
+</ul>
+
+<h2><b>TEMPORARY COMMITS</b></h2>
+<p>Temporarily store modified, tracked files in order to change branches</p>
+<ul>
+    <li> git stash </li>
+    <p>Save modified and staged changes</p>
+    <li>git stash list</li>
+    <p>list stack-order of stashed file changes</p>
+    <li>git stash pop</li>
+    <p>write working from top of stash stack</p>
+    <li>git stash drop</li>
+    <p>discard the changes from top of stash stack</p>
+</ul>
+
+<hr/>
+
+<center>
+<h3><b>GitHub Education</b></h3>
+<p>Teach and learn beter, together. GitHub is free for students and teachers. Discounts available for other educational uses</p>
+<a href="mailto:education@github.com">education@github.com</a> <br/>
+<a href="https://education.github.com/">education.github.com</a></center>
