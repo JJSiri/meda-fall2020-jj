@@ -1,0 +1,65 @@
+/*
+CSS: Cascading Styles Sheets
+
+    CSS Parts:
+    Selector
+    Rules: property & value
+*/
+
+* body{
+    background-color: cornsilk;
+    border-style:solid;
+    border-width: 5px;
+    border-color: navy;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding-left: 12px; /* Move space inside box */
+    /*padding-top: 100px;*/
+    padding-right: 12px;
+    
+}
+
+#firstDiv{
+    font-size: 24px;
+    font-family: "Cursive";
+    color: navy;
+    font-weight: bold;
+    font-style: italic; 
+    line-height: 48px;
+    text-align: center;
+   
+}
+
+#secondDiv{
+   
+    font-family: "Georgia";
+    color: rgb(55, 55, 204);
+    font-weight: bold;
+    
+}
+
+#thirdDiv{
+  
+    font-family: "Cursive";
+    color: navy;
+    font-weight: bold;
+    font-style: italic; 
+    line-height: 48px;
+    text-align: center;
+}
+
+
+#special-paragraph{
+    font-size: 16px;
+    font-family: "Arial";
+    color: purple;
+    font-weight: bold;
+    font-style: italic; 
+    line-height: 48px;
+   
+
+   
+
+}
