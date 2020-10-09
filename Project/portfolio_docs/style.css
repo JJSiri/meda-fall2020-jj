@@ -1,15 +1,14 @@
 
-
 body {
     back
-
+}
+h1{
+    text-align: center;
 }
 #container {
     margin-left: auto;
     margin-right: auto;
     width: 700px;
-    text-align: center;
-   
 }
 #container header nav {
    
@@ -55,8 +54,7 @@ body {
 header {
     /*width: 700px;*/
     height: 200px;
-    background-color: gray;
-  
+    background-color: blanchedalmond;
     
 }
 
@@ -64,27 +62,16 @@ main {
     /*width: 660px;*/
    
     background-color: lightgrey;
-    padding: 1px;
+    padding: 20px;
     vertical-align: middle;
 
 }
 
 #home p, #home h1 {
-    color: rgb(18, 81, 139);
+    color: darkgreen;
 }
 
-#about p {
-    color:black;
-}
 
-#h1 {
-    text-align: center;
-    color:black;
-}
-
-#about h2 {
-    color:black;
-}
 
 footer {
     height: 50px;
@@ -108,4 +95,6 @@ footer p {
     
 }
 
-
+.gallery{
+    width: 77px
+}
