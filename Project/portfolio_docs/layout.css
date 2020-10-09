@@ -1,0 +1,108 @@
+/*Normally we would have a parent div holding #header, #main and #footer so we can apply margin-left and margin-right to this parent div instead of every div on the webpage */
+
+body {
+    back
+}
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    text-align: center;
+}
+#container header nav {
+   
+    padding-top: 157px
+}
+/* Cover positions and anchor pseudo-class for this section*/
+#container header nav ul {
+    border:dashed green 1px;
+    padding-left: 0;
+    width: 350px;
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+
+#container header nav ul li {
+    /* border-style: dashed ;
+    border-color: red;
+    border-width: 1px; */
+    display: inline-block;
+   
+    /*font-size: 2em; */
+    background-color: lightgreen;
+    border-radius: 5px;
+    
+}
+
+#container header nav ul li a {
+    font-family: Arial;
+    line-height: 32px;
+    display: inline-block;
+    height: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+header {
+    /*width: 700px;*/
+    height: 200px;
+    background-color: blanchedalmond;
+    
+}
+
+main {
+    /*width: 660px;*/
+   
+    background-color: lightgrey;
+    padding: 20px;
+    vertical-align: middle;
+
+}
+
+#home p, #home h1 {
+    color: rgb(18, 81, 139);
+}
+
+#about p {
+    color:black;
+}
+
+#h1 {
+    text-align: center;
+    color:black;
+}
+
+#about h2 {
+    color:black;
+}
+
+footer {
+    height: 50px;
+    background-color: gray;
+}
+
+footer p {
+    text-align: center;
+    margin-block-start: 0; /* Make it no gap*/
+    margin-inline-end: 0;  /* Make it no gap*/
+}
+#sidebar {
+    width: 150px;
+    height: 1000px;
+    background-color: skyblue;
+    display: inline-block;
+}
+
+#article{
+    width: 468px; /* takes into consideration padding and */
+    
+}
+
+
