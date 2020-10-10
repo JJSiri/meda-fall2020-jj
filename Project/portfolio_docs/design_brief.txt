@@ -1,0 +1,62 @@
+HOME
+I will Show Picture for greeting user when see my index page.
+
+
+ABOUT
+I Will introduction my self and tell about my experience
+I'm a Front-End Developer freelance in San Francisco, CA. I like to learn new technology with many tools , application and programing.
+I worked about technician support program from outsource , teach user for use software and web content.
+Now I'm freelance programing Front-End.
+My work at SATT Inter Supply
+-Web Contain
+-Update website
+-Designed graphics for website decoration and layout
+-Tested websites and performed troubleshooting prior to deployment
+
+My Work at SARAYA
+-Documented all transactions and support interactions in system for future reference and addition to knowledge base
+-Teach user learn new software
+-Maintenance IT equipment
+
+My Work at Ramkhamhaeng hospital
+-Teach user for use software.
+-Teach user learn new software
+-Maintenance IT equipment
+-Coding Tester
+-Data Entry
+-Test server and software of each department.
+
+RESUME
+-When I click on Resume it will be link another page. It will show Myresume.pdf
+
+CONTACT
+This is a form for user want to contact me.
+User will fill
+First name:
+Last name:
+Email:
+Subject:
+Enter text here...(Write Message for contact)
+button for Send and Reset 
+
+CSS
+ body {
+    background-color: lightgray;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+    text-decoration-color: black;
+  }
+
+  p {
+    
+    text-decoration-color: black;
+  }
+
+For text I use black color it easy to read and easy to see.
+Background Color I use lightgray because this color bright. I want the text looks ouutstanding. 
+I want color tone simila 

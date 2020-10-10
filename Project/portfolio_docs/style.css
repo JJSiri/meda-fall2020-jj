@@ -1,78 +1,97 @@
 
-body {
-    back
-}
-h1{
-    text-align: center;
-}
-#container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
-}
-#container header nav {
-   
-    padding-top: 157px
-}
-/* Cover positions and anchor pseudo-class for this section*/
-#container header nav ul {
-    border:dashed green 1px;
-    padding-left: 0;
-    width: 350px;
-    text-align: center;
-    margin-left: auto ;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    
-}
-
-
-#container header nav ul li {
-    /* border-style: dashed ;
-    border-color: red;
-    border-width: 1px; */
-    display: inline-block;
-   
-    /*font-size: 2em; */
-    background-color: lightgreen;
-    border-radius: 5px;
-    
-}
-
-#container header nav ul li a {
-    font-family: Arial;
-    line-height: 32px;
-    display: inline-block;
-    height: 32px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color:white;
-    text-decoration: none;
-}
-
-header {
-    /*width: 700px;*/
-    height: 200px;
-    background-color: blanchedalmond;
-    
-}
-
-main {
-    /*width: 660px;*/
-   
-    background-color: lightgrey;
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: lightgray;
     padding: 20px;
-    vertical-align: middle;
+    font-family: Arial;
+  }
+  
+ 
+  
+    
 
+  
+  /* website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+    text-decoration-color: black;
+  }
+  
+  p {
+    
+    text-decoration-color: black;
+  }
+  
+
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  form > input { 
+    font-family: Arail;
+    font-size: 16px;
+    font-weight:bold;
+    
+    
+    border-color: lightblue;
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding:12px;
+    margin: 10px;
+    text-align:right;
 }
 
-#home p, #home h1 {
-    color: darkgreen;
+
+form > label {
+  font-family: Arial;
+  font-size:24px;
+  font-weight: bold;
+  color: black;
 }
-
-
-
 footer {
     height: 50px;
     background-color: gray;
@@ -82,19 +101,4 @@ footer p {
     text-align: center;
     margin-block-start: 0; /* Make it no gap*/
     margin-inline-end: 0;  /* Make it no gap*/
-}
-#sidebar {
-    width: 150px;
-    height: 1000px;
-    background-color: skyblue;
-    display: inline-block;
-}
-
-#article{
-    width: 468px; /* takes into consideration padding and */
-    
-}
-
-.gallery{
-    width: 77px
 }
