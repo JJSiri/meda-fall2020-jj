@@ -1,5 +1,34 @@
+
+Step A
+
+Header 
+Background color use light gray color
+Text color use black color easy and simple format text to read
+
+This is also where main common information about a website usually stays, such as site navigation and main contact information.
+Home About Resume Contact --> Show on my header.
+
+Body
+
+This is the big area in the center that contains most of the unique content of a web page, for example the photo gallery you want to display or a feature article you want your visitors to read. 
+This is area that changes from page to page.
+Background color use light gray color
+Text color use black color easy and simple format text to read
+
+Footer
+This is the strip across the bottom of a web page. It generally  copyright notices.
+Background color use gray color. It dark more 1 step I nedd see it separate between body and footer
+Text color use black color easy and simple format text to read.
+
+
+Header , Body and Footer I still use black color for text because easy and simple to read and link text after action it will show navy blue tone color for link it. 
+For text I use black color it easy to read and easy to see.
+Background Color I use lightgray because this color bright. I want the text looks ouutstanding. 
+I want color tone is simila. 
+
+
 HOME
-I will Show Picture for greeting user when see my index page.
+I will Show Picture and my picture for greeting user when see my home page.
 
 
 ABOUT
@@ -39,24 +68,14 @@ Subject:
 Enter text here...(Write Message for contact)
 button for Send and Reset 
 
-CSS
- body {
-    background-color: lightgray;
-    padding: 20px;
-    font-family: Arial;
-  }
-  
-h1 {
-    font-size: 50px;
-    word-break: break-all;
-    text-decoration-color: black;
-  }
+STEP E
+http://ejosue.com/
+I like this portfolio because easy to use menu and I can see Header, Main and Footer outstanding. No guess to find what is header or footer.
+The color that use it contrast and outstanding.
 
-  p {
-    
-    text-decoration-color: black;
-  }
+http://www.antoncristell.com/index.php
+I like this port folio because this website use image to link and easy to use. It look clean  and clear.
 
-For text I use black color it easy to read and easy to see.
-Background Color I use lightgray because this color bright. I want the text looks ouutstanding. 
-I want color tone simila 
+https://www.justinmccandless.com/
+I don't like this because it hard to guess what is header. Where is the topic to link? I can't find. It's long page.
+One think I like only 1 page but It is not separate Header and Main. I don't know how can I use navigater.
